@@ -10,10 +10,6 @@ class Dog
     save
   end
   
-  def self.all
-    @all
-  end
-  
   def self.print_all
     @@all.each do |name|
       puts "#{name}"
@@ -27,4 +23,6 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+  
+  
 end
