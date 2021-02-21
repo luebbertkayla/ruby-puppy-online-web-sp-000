@@ -10,6 +10,7 @@ class Dog
     save
   end
   
+  
   def self.print_all
     @@all.each do |name|
       puts "#{name}"
@@ -24,7 +25,5 @@ class Dog
     @@all.clear
   end
   
-   def self.all
-    @@all
-  end
+   
 end
